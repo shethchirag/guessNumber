@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  padding: 15px;
+
+  text-align: center;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.main-div {
+  text-align: center;
+}
+h2.main-text-h2 {
+  font-size: 45px;
+  margin: 20px;
+}
+h2.main-text-h2 {
+  font-size: 45px;
+  margin: 20px;
+}
+.btn-container {
+  margin-block: 25px;
+}
+
+button.plus-btn,
+.minus-btn {
+  background-color: green;
+  outline: none;
+  border: navajowhite;
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input#number {
+  width: 400px;
+  height: 40px;
+}
+.input-field {
+  margin-block: 25px;
+}
+button.plus-btn:disabled {
+  background-color: #fe505052;
+  cursor: no-drop;
+}
