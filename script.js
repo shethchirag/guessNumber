@@ -12,6 +12,7 @@ let guessNumberArray = [];
 submitBtn.addEventListener("click", () => {
   guessNumberArray.push(parseInt(inputNumber.value));
   guessNumber.innerText = `Your guesses: ${guessNumberArray}`;
+  startGame.disabled = false;
   if (randomNumber === parseInt(inputNumber.value)) {
     resultData.innerText = "You got it! Congrats";
     submitBtn.disabled = true;

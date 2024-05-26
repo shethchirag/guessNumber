@@ -53,3 +53,8 @@ button.plus-btn:disabled {
   background-color: #fe505052;
   cursor: no-drop;
 }
+
+.start-game:disabled {
+  background-color: #fe505052;
+  cursor: no-drop;
+}
