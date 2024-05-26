@@ -27,4 +27,5 @@ startGame.addEventListener("click", () => {
   guessNumberArray = [];
   guessNumber.innerText = ``;
   submitBtn.disabled = false;
+  inputNumber.value = "";
 });
